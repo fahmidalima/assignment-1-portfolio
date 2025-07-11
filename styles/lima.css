@@ -1,6 +1,7 @@
 body{
-    background-color: rgba(206, 204, 251, 0.1);
+    background-color: rgba(151, 147, 255, 0.1);
 }
+
 .inter-logo{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -40,6 +41,7 @@ nav{
     align-items: center;
 }
 
+
 .raleway-header {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -55,9 +57,9 @@ nav{
 
 }
 
-.banner button{
-    display: block;
-    margin: auto;
+ .banner button{
+       display: block;
+       margin: auto;
     
 }
 header{
@@ -133,6 +135,23 @@ main{
 .person{ 
     padding: 24px;
     border-radius: 14px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5)
+
 }
+
+.first-half{
+    font-size: 97px;
+    font-weight: bold;
+
+}
+.second-half{
+    font-size: 18;
+    font-weight: 700;
+    display: block;
+}
+ .contact{
+    display: flex;
+    align-items: center;
+
+ }
 
