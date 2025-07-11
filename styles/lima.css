@@ -148,10 +148,60 @@ main{
     font-size: 18;
     font-weight: 700;
     display: block;
+    
 }
  .contact{
     display: flex;
     align-items: center;
+    max-width: 1140px;
+    margin: auto;
 
  }
 
+ .last{
+    text-align: center;
+  
+    margin: auto;
+    background-color: white;
+ }
+ .last h2{
+    font-size: 100px;
+    font-weight: 900;
+ }
+ .last ul li{
+    list-style: none;
+
+   
+ }
+ .last ul{
+    display: flex;
+    justify-content: space-around;
+ }
+.last ul li a{
+     text-decoration: none;
+     color: #8987A1;
+}
+.last p{
+    color: #8987A1;
+}
+
+input{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    width: 497px;
+    border: none;
+}
+textarea{
+     height: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    width: 497px;
+    border: none;
+}
+.second-half button{
+    margin-top: 19px;
+    width: 497px;
+}
