@@ -1,0 +1,138 @@
+body{
+    background-color: rgba(206, 204, 251, 0.1);
+}
+.inter-logo{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* common style */
+
+.text-primary{
+color: #4E47FF;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 12px 36px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+.nav-logo{
+    font-weight: 900;
+    font-size: 34px;
+}
+/* banner style */
+.banner{
+    align-items: center;
+}
+
+.raleway-header {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.banner h2{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin: 309px 267px 152px 267px ;
+  
+
+}
+
+.banner button{
+    display: block;
+    margin: auto;
+    
+}
+header{
+    background-image: url('../images/Hero-bg.png');
+    max-width: 1440px;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.seeit h4{
+    font-size:42px ;
+    font-weight: bold;
+    color: #252432;
+}
+.seeit p{
+    font-size: 24px;
+    color:#252432;
+}
+.seeit{
+    display: flex;
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 116px;
+    align-items: center;
+}
+.seeit ul li { 
+    list-style: none;
+}
+.seeit img{
+    border-radius: 48px;
+}
+
+.Users{
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+    margin-top: 116px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.Users h3{
+    font-size:38 ;
+    color:#252432 ;
+    font-weight:bold ;
+}
+
+.user-title{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF ;
+    margin-bottom: 30px;
+}
+.subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.rating{
+    margin-top: 137px;
+}
+.rating h3{
+    text-align: center;
+}
+.user-container{
+    display: flex;
+    justify-content: space-around;
+}
+.rating-persons{
+    display: flex;
+    gap: 20px;
+}
+.person{ 
+    padding: 24px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
